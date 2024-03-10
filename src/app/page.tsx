@@ -4,6 +4,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
+import { JSX, SVGProps } from "react"
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
   )
 }
 
-function FoldVerticalIcon(props) {
+function FoldVerticalIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

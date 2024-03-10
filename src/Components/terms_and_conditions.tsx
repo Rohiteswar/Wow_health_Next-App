@@ -1,5 +1,7 @@
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from "react";
+
 /* eslint-disable react/no-unescaped-entities */
-export default function Terms_and_conditions(props) {
+export default function Terms_and_conditions(props: { date: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; }) {
   return (
     <>
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
